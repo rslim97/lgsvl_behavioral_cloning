@@ -30,6 +30,7 @@ To run the simulator, right-click `simulator.exe` go to properties, permissions 
 <p align="center">
   <img src="readme_img/Screenshot%20from%202021-11-18%2001-38-54.png" width="25%"/>
 </p>
+
 ## Simulation Setup
 
 In the simulator WebUI navigate to 'Simulations'. Click 'Add New'. In the General tab, enter simulation name and select 'cluster'. Create cluster first if you have not already. Leave `Headless mode` unselected.
@@ -88,9 +89,10 @@ If `log.csv` exists the function `augment_data` will be executed. Otherwise, the
 
 ### `training_mode_images`
 A folder containing 4500 front camera images collected from 90 trials used to train `model.pt`. Each trial lasts for 5 seconds, meaning the time interval of which the images are collected are 0.1s.
-### `training_mode_images_filpped`
+### `training_mode_images_flipped`
 A folder containing images in `training_mode_images` flipped horizontally, i.e., around the y-axis.
 ### `behavioral_demo1.mp4`
+Please use git clone or download to view the full video
 <p align="center">
   <img src="readme_img/demo1.gif" width="40%"/>
 </p>
@@ -99,7 +101,6 @@ A folder containing images in `training_mode_images` flipped horizontally, i.e.,
 <p align="center">
   <img src="readme_img/demo2.gif" width="40%"/>
 </p>
-
 
 
 
