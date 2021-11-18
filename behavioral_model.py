@@ -106,7 +106,7 @@ def main():
             print(f'i={i}')
             batch_x,batch_y=data  
             batch_x=torch.tensor(batch_x,requires_grad=True)
-            b_x=batch_x.permute(0,3,1,2).float().to(device) # pytorch accepts (H,C,H,W)
+            b_x=batch_x.permute(0,3,1,2).float().to(device) # pytorch accepts (N,C,H,W)
             batch_y=np.reshape(batch_y,(-1,2)) # first dim: minibatch size, second dim: steering_angle and acceleration
             b_y=torch.from_numpy(batch_y).float().to(device)
             print(f'b_y:{b_y}')
