@@ -68,7 +68,7 @@ A log file containing absolute path to each image with steering angle and accele
 ```
 If `log.csv` already exists, it will be overwritten. As a precaution `log.csv` will be replaced with `log_augmented.csv` when `behavioral_model.py` is called.
 ### `behavioral_model.py`
-Contains a Pytorch deep neural network as a function approximator to predict steering angles and acceleration from front camera image. To train the agent with default settings with the hyperparameters `--epochs 80 --batch_size 60` and learning rate `lr=7e-5`:
+Contains a Pytorch deep neural network as a function approximator to predict steering angles and acceleration from front camera image. To train the agent with default settings with the hyperparameters `--epochs 80 --batch_size 60`
 ```sh
 python3 behavioral_model.py
 ```
@@ -102,9 +102,7 @@ Please use git clone or download to view the full video
   <img src="readme_img/demo2.gif" width="40%"/>
 </p>
 
-
-
-
-
+### `screen_demo.mp4`
+demo with screen recording.
 
 
