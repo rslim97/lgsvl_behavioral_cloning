@@ -3,9 +3,9 @@
 ---
 Welcome. This repository contains the implementation of behavior cloning for autonomous overtaking in lgsvl simulator using PythonAPI. The vehicle used was `Lincoln2017MKZ` with `Apollo 5.0` sensor configuration. 
 ## Installation
-start by cloning the behaviour branch in our group project repository
+start by cloning this repository
 ```sh
-git clone -b behaviour https://github.com/HonWek/autonomous_overtaking.git
+https://github.com/rslim97/lgsvl_behavioral_cloning.git
 ```
 ## Dependencies
 External library required is the lgsvl PythonAPI. Please refer here https://www.svlsimulator.com/docs/python-api/python-api/#quickstart for a quick installation. The code here was developed using:
